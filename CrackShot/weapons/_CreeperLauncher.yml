@@ -1,0 +1,50 @@
+CreeperLauncher:
+    Item_Information:
+        Item_Name: "&aCreeper Launcher"
+        Item_Type: 405
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE|&7Et ça fait BIM BAM BOUM."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Remove_Bullet_Drop : false
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 35
+        Bullet_Spread: 1
+        Sounds_Shoot: FIREWORK_LAUNCH-1-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 7
+    Reload:
+        Enable: true
+        Reload_Amount: 3
+        Reload_Duration: 100
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 6
+        Explosion_No_Grief: false
+        Explosion_Radius: 10
+        On_Impact_With_Anything: true
+        Explosion_Incendiary: true
+        Ignite_Victims: 60
+        Sounds_Shooter: ZOMBIE_WOOD-1-0-0
+    Spawn_Entity_On_Hit:
+        Enable: true
+        Chance: 100
+        Make_Entities_Target_Victim: true
+        Timed_Death: 100
+        Entity_Disable_Drops: true
+        EntityType_Baby_Explode_Amount: CREEPER-TRUE-TRUE-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        Death_No_Drop: true
+
+
+

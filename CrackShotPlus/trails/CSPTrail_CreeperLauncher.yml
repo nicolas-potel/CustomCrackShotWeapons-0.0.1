@@ -1,0 +1,5 @@
+CreeperLauncher:
+  Trail: "VILLAGER_HAPPY"
+  Trail_Catch:
+    Required_Distance_To_Catch: 1.0
+    Space_Between_Trails: 0.6

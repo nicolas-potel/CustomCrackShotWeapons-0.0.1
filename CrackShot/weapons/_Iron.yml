@@ -1,0 +1,7 @@
+Iron:
+    Item_Information:
+        Item_Name: "&7Lingot de fer amélioré"
+        Item_Type: IRON_INGOT
+        Item_Lore: "&7Sert à fabriquer des armes."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Hide_From_List: true

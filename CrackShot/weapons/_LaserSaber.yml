@@ -1,0 +1,18 @@
+LaserSaber:
+    Item_Information:
+        Item_Name: "&cSabre Laser"
+        Item_Type: 2266
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE"
+        Melee_Mode: true
+        Sounds_Acquired: SHOOT_ARROW-1-0-0
+    Shooting:
+        Delay_Between_Shots: 0
+        Projectile_Damage: 5
+        Projectile_Incendiary:
+          Enable: true
+          Duration: 40
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-0-0
+    Abilities: 
+        Death_No_Drop: true

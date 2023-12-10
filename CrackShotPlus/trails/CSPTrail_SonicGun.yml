@@ -1,0 +1,10 @@
+SonicGun:
+    Trail: "SONIC_BOOM"
+    Trail_Radius: 3
+    Circle:
+        Maxium_Circle_Size: 3.0
+        Non_Increasing_Circle: false
+    Space_Between_Trails: 2.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 0.1

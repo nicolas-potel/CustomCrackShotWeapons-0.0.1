@@ -1,0 +1,7 @@
+Balle:
+    Item_Information:
+        Item_Name: "&cBalle"
+        Item_Type: BRICK
+        Item_Lore: "&7Munition de base."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Hide_From_List: true

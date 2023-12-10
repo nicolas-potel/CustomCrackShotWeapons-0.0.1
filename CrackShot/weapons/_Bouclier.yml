@@ -1,0 +1,13 @@
+Bouclier:
+    Item_Information:
+        Item_Name: "&7Bouclier"
+        Item_Type: 442
+        Item_Lore: "&7Bloque toutes les attaques frontales."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+        Skip_Name_Check: true
+    Riot_Shield:
+        Enable: true
+        Durability_Loss_Per_Hit: 10
+        Sounds_Blocked: GLASS-2-2-0
+        Sounds_Break: ITEM_BREAK-2-1-0

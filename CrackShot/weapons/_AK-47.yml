@@ -1,0 +1,39 @@
+AK:
+    Item_Information:
+        Item_Name: "&7AK-47"
+        Item_Type: CYAN_DYE
+        Item_Lore: "&7Checkez moi ça, la rafale !"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 40
+        Projectile_Damage: 4
+        Bullet_Spread: 2
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 6
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 336
+        Ammo_Name_Check: "&cBalle"
+        Take_Ammo_Per_Shot: true
+        Sounds_Shoot_With_No_Ammo: LAVA_POP-1-2-0

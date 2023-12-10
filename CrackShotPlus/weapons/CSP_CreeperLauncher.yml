@@ -1,0 +1,15 @@
+CreeperLauncher:
+    Shoot:
+        Trails:
+            Default_Trail: CreeperLauncher
+            Trail: CreeperLauncher
+    Held:
+        Weapon_Weight: -0.02
+        Held_Particle: 
+            Particle: VILLAGER_HAPPY
+            Shape: multi_circle
+
+
+
+
+

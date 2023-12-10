@@ -1,0 +1,10 @@
+Barret:
+  Held:
+    Weapon_Weight: -0.05
+  Scope:
+    Pumpkin_On_Zoom: true
+    Fog: true
+    Second_Zoom:
+      Amount: 5
+      Fog: true
+      Night_Vision: true

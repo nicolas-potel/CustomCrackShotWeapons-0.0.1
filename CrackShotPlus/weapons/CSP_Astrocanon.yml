@@ -1,0 +1,9 @@
+AstroCanon:
+    Shoot:
+        Trails:
+            Default_Trail: AstroCanon
+            Trail: AstroCanon
+    Held:
+        Held_Particle: 
+            Particle: SPELL_MOB
+            Shape: multi_circle

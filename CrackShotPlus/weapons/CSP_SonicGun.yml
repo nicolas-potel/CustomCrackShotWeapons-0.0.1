@@ -1,0 +1,4 @@
+SonicGun: 
+    Shoot:
+        Trails:
+            Default_Trail: SonicGun

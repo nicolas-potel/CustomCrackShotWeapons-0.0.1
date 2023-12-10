@@ -1,0 +1,8 @@
+EndScepter: 
+    Shoot:
+        Trails:
+            Default_Trail: EndScepter
+    Held:
+        Held_Particle: 
+            Particle: PORTAL
+            Shape: weird_circles

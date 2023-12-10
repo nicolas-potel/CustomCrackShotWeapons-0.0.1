@@ -1,0 +1,26 @@
+Citroen:
+    Item_Information:
+        Item_Name: "&eCitroën C15 du seigneur"
+        Item_Type: 351~4
+        Item_Lore: "&7V'la ti pas qu'elle est belle l'auto #boiserie"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Remove_Bullet_Drop : false
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 0
+        Explosion_No_Grief: false
+        Explosion_Radius: 10
+        On_Impact_With_Anything: true
+        Explosion_Incendiary: true
+        Ignite_Victims: 60
+        Sounds_Shooter: ZOMBIE_WOOD-1-0-0
+        Enable_Owner_Immunity: false
+    Extras:
+      Disable_Underwater: true
+      One_Time_Use: true

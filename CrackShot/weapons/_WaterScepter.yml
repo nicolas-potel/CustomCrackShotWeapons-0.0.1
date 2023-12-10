@@ -1,0 +1,20 @@
+WaterScepter:
+    Item_Information:
+        Item_Name: "&9Sceptre de la Tortue"
+        Item_Type: 2260
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE"
+        Sounds_Acquired: ENDERDRAGON_WINGS-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Projectile_Amount: 1
+        Delay_Between_Shots: 100
+        Projectile_Type: energy
+        Projectile_Subtype: 0-0-NONE-0
+        Projectile_Damage: 0
+        Sounds_Shoot: PORTAL_TRAVEL-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: ABSORPTION-6000-3, WATER_BREATHING-6000-250, REGENERATION-60-2, NIGHT_VISION-6000-1, DOLPHINS_GRACE-6000-2, FAST_DIGGING-6000-4
+    Abilities:
+        Death_No_Drop: true
+

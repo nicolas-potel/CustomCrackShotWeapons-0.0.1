@@ -1,0 +1,23 @@
+Hammer:
+    Item_Information:
+        Item_Name: "&cMarteau du jugement"
+        Item_Type: 2267
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE"
+        Melee_Mode: true
+        Sounds_Acquired: SHOOT_ARROW-1-0-0
+    Shooting:
+        Delay_Between_Shots: 0
+        Projectile_Damage: 3
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: AMBIENCE_THUNDER-1-2-0
+        Sounds_Victim: AMBIENCE_THUNDER-1-2-0
+    Explosions:
+        Enable: true
+        Knockback: 2
+        Damage_Multiplier: 2
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Enable_Owner_Immunity: true
+    Abilities:
+        Death_No_Drop: true

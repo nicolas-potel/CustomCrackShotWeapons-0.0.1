@@ -1,0 +1,32 @@
+AstroCanon:
+    Item_Information:
+        Item_Name: "&5Astro Canon"
+        Item_Type: IRON_HORSE_ARMOR
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE|&7Bob l'éponge carrée !"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 25
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 122
+        Projectile_Speed: 20
+        Sounds_Shoot: ENDERMAN_TELEPORT-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 100
+        Sounds_Reloading: LEVEL_UP-1-1- 95
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Damage_Multiplier: 2
+        Explosion_Radius: 20
+        Explosion_Delay: 60
+        Knockback: -20
+        Sounds_Explode: PORTAL_TRAVEL-1-2-0
+    Abilities:
+        Death_No_Drop: true

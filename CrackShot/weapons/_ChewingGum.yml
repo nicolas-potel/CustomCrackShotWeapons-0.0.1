@@ -1,0 +1,31 @@
+ChewingGum:
+    Item_Information:
+        Item_Name: "&dChewing Gum"
+        Item_Type: 351~9
+        Item_Lore: "&7Peut se coller sous les semelles"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Shooting:
+        Cancel_Left_Click_Block_Damage: false
+        Remove_Bullet_Drop : false
+        Delay_Between_Shots: 10
+        Projectile_Damage: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Subtype: 1-1-NONE-1
+    Hit_Events:
+        Enable: true
+        Message_Victim: "&7Vous avez désormais un &dchewing gum &7collé sous la chaussure !"
+        Sounds_Shooter: SLIME_WALK-1-2-0
+        Sounds_Victim: SLIME_WALK-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-100-10
+    Extras:
+        One_Time_Use: true
+
+
+
+
+

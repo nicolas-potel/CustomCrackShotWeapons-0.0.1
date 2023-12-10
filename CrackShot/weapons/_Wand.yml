@@ -1,0 +1,27 @@
+Wand:
+    Item_Information:
+        Item_Name: "&2Baguette du fléau"
+        Item_Type: 419
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Damage: 3
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 15-1-NONE-0
+        Sounds_Shoot: SPIDER_DEATH-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Duration: 80
+        Sounds_Reloading: LEVEL_UP-1-1-75
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: SATURATION-200-1, ABSORPTION-200-1
+        Potion_Effect_Victim: HUNGER-200-1, POISON-200-1
+    Abilities:
+        Death_No_Drop: true

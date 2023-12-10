@@ -1,0 +1,6 @@
+Tracker:
+  Trail: "REDSTONE"
+  Trail_Color: "000-0-0"
+  Trail_Catch:
+    Required_Distance_To_Catch: 1.0
+    Space_Between_Trails: 0.6

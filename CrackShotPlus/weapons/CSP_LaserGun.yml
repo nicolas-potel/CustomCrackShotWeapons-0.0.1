@@ -1,0 +1,5 @@
+LaserGun: 
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Default_Trail: LaserGun

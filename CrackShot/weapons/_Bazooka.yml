@@ -1,0 +1,52 @@
+Bazooka:
+    Item_Information:
+        Item_Name: "&cBazooka"
+        Item_Type: 351
+        Item_Lore: "&7MACRON EXPLOSION !"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Remove_Bullet_Drop : false
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 35
+        Sounds_Shoot: FIREWORK_LAUNCH-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Sounds_Reloading: SKELETON_IDLE-1-0-10,PISTON_EXTEND-1-0-28,SKELETON_WALK-1-0-48
+    Explosions:
+        Enable: true
+        Knockback: 5
+        Damage_Multiplier: 6
+        Explosion_No_Grief: false
+        Explosion_Radius: 10
+        On_Impact_With_Anything: true
+        Explosion_Incendiary: true
+        Ignite_Victims: 60
+        Sounds_Shooter: ZOMBIE_WOOD-1-0-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 337
+        Ammo_Name_Check: "&cRoquette"
+        Take_Ammo_Per_Shot: true
+        Sounds_Shoot_With_No_Ammo: LAVA_POP-1-2-0
+
+Roquette:
+    Item_Information:
+        Item_Name: "&cRoquette"
+        Item_Type: 337
+        Item_Lore: "&7Munition du bazooka."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Hide_From_List: true
+
+
+
+

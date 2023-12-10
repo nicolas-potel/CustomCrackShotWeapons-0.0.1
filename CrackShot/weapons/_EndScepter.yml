@@ -1,0 +1,27 @@
+EndScepter:
+    Item_Information:
+        Item_Name: "&5Sceptre de l'End"
+        Item_Type: 2256
+        Item_Lore: "&7Rareté: &4&lMYTHIQUE"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Damage: 10
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 50-4-ALL-0
+        Recoil_Amount: 7
+        Sounds_Shoot: ENDERDRAGON_DEATH-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 140
+        Sounds_Reloading: PORTAL_TRAVEL-1-1-0, LEVEL_UP-1-0-2, LEVEL_UP-1-1-135
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-600-1, SLOW-600-1, SLOW_DIGGING-600-1, WEAKNESS-600-1, WITHER-300-2
+    Abilities:
+        Death_No_Drop: true

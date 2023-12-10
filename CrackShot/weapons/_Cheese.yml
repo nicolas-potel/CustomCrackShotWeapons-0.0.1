@@ -1,0 +1,8 @@
+Cheese:
+    Item_Information:
+        Item_Name: "&eFromage qui pue"
+        Item_Type: 394
+        Item_Lore: "&7On dirait l'haleine d'un prof d'histoire géo."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Skip_Name_Check: true
+    

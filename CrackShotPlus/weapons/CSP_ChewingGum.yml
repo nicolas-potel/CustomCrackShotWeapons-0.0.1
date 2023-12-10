@@ -1,0 +1,11 @@
+ChewingGum:
+    Shoot:
+        Invisible_Projectiles: true
+        Trails:
+            Default_Trail: ChewingGum
+            Trail: ChewingGum
+
+
+
+
+

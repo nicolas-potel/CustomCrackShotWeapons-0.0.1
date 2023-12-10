@@ -1,0 +1,5 @@
+SoulReaper:
+  Held:
+        Held_Particle: 
+            Particle: GLOW
+            Shape: multi_circle

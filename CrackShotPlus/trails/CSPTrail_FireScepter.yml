@@ -1,0 +1,10 @@
+FireScepter:
+    Trail: "FLAME"
+    Trail_Radius: 15
+    Circle:
+        Maxium_Circle_Size: 2.2
+        Non_Increasing_Circle: true
+    Space_Between_Trails: 1.0
+    Trail_Settings:
+        Speed: 0.09
+        Particle_Count: 2

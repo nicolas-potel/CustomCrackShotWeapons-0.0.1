@@ -1,0 +1,8 @@
+FireScepter: 
+    Shoot:
+        Trails:
+            Default_Trail: FireScepter
+    Held:
+        Held_Particle: 
+            Particle: FLAME
+            Shape: weird_circles

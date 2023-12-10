@@ -1,0 +1,6 @@
+WaterScepter: 
+    Held:
+        Weapon_Weight: 0.03
+        Held_Particle: 
+            Particle: WATER_DROP
+            Shape: weird_circles

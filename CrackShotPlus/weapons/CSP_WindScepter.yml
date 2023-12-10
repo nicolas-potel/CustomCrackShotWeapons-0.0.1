@@ -1,0 +1,10 @@
+WindScepter: 
+  Held:
+    Weapon_Weight: 0.03
+    Held_Particle: 
+      Particle: CLOUD
+      Shape: weird_circles
+  Shoot:
+    Trails:
+      Default_Trail: WindScepter
+    

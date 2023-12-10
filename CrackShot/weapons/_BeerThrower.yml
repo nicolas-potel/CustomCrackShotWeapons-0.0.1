@@ -1,0 +1,40 @@
+BeerThrower:
+    Item_Information:
+        Item_Name: "&6Beer Thrower"
+        Item_Type: 351~14
+        Item_Lore: "&7Un jour, un gnôme très petit du nom d'Alexandre |&7se mit à la recherche de la meilleure bière du monde,|&7la légende raconte qu'il cherche encore."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 15
+        Projectile_Amount: 1
+        Projectile_Type: splash
+        Projectile_Subtype: 434
+        Projectile_Speed: 35
+        Sounds_Shoot: GLASS-1-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 55
+        Sounds_Reloading: DRINK-1-1-0, DRINK-1-1-10,DRINK-1-1-20,DRINK-1-1-30,DRINK-1-1-4 0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 434
+        Ammo_Name_Check: "&6Bière"
+        Take_Ammo_Per_Shot: true
+        Sounds_Shoot_With_No_Ammo: LAVA_POP-1-2-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-300-2, CONFUSION-300-5
+
+Beer:
+    Item_Information:
+        Item_Name: "&6Bière"
+        Item_Type: 434
+        Item_Lore: "&7C'est de la bonne."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Skip_Name_Check: true
+
+
+

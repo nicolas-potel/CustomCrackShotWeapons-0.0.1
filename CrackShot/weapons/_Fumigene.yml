@@ -1,0 +1,26 @@
+Fumigene:
+    Item_Information:
+        Item_Name: "&7Grenade Fumigène"
+        Item_Type: 351~12
+        Item_Lore: "&7Explose 3 secondes après le lancement."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 351~12
+        Projectile_Speed: 10
+        Sounds_Shoot: SHOOT_ARROW-2-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Damage: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 0
+        Explosion_Delay: 20
+        Sounds_Explode: FIZZ-2-1-0
+        Knockback: 0
+        Enable_Owner_Immunity: true
+    Extras:
+        One_Time_Use: true

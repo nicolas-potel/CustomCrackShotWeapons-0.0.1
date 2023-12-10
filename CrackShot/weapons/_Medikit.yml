@@ -1,0 +1,18 @@
+Medikit:
+    Item_Information:
+        Item_Name: "&aKit de soins"
+        Item_Type: 351~15
+        Item_Lore: "&7Pour repartir du bon pied."
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Type: energy
+        Projectile_Subtype: 0-0-NONE-0
+        Projectile_Amount: 1
+        Sounds_Shoot: NOTE_PLING-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: REGENERATION-60-5
+    Extras:
+        One_Time_Use: true

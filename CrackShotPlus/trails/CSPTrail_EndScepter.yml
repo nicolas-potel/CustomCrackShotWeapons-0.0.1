@@ -1,0 +1,10 @@
+EndScepter:
+    Trail: "SPELL_WITCH"
+    Trail_Radius: 30
+    Circle:
+        Maxium_Circle_Size: 4.0
+        Non_Increasing_Circle: true
+    Space_Between_Trails: 3.0
+    Trail_Settings:
+        Speed: 0.1
+        Particle_Count: 10.0

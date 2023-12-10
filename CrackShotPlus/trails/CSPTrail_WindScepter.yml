@@ -1,0 +1,10 @@
+WindScepter:
+    Trail: "CLOUD"
+    Trail_Radius: 25
+    Circle:
+        Maxium_Circle_Size: 7.0
+        Non_Increasing_Circle: false
+    Space_Between_Trails: 3.0
+    Trail_Settings:
+        Speed: 0.09
+        Particle_Count: 0.01

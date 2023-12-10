@@ -1,0 +1,30 @@
+Tracker:
+    Item_Information:
+        Item_Name: "&8Traqueur"
+        Item_Type: 345
+        Item_Lore: "&7Pour identifier et localiser la cible."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Shooting:
+        Cancel_Left_Click_Block_Damage: false
+        Remove_Bullet_Drop : false
+        Delay_Between_Shots: 10
+        Projectile_Damage: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Subtype: 1-1-NONE-1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: NOTE_PLING-1-1-0
+        Sounds_Victim: NOTE_PLING-1-1-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: GLOWING-600-1
+    Extras:
+        One_Time_Use: true
+
+
+
+
+

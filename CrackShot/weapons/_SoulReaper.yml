@@ -1,0 +1,19 @@
+SoulReaper:
+    Item_Information:
+        Item_Name: "&3Soul Reaper"
+        Item_Type: 2265
+        Item_Lore: "&7Rareté: &6&lLEGENDAIRE"
+        Melee_Mode: true
+        Sounds_Acquired: SHOOT_ARROW-1-0-0
+    Shooting:
+        Delay_Between_Shots: 0
+        Projectile_Damage: 4
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: WITHER_SHOOT-1-1-0
+        Sounds_Victim: WITHER_SHOOT-1-1-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Shooter: INVISIBILITY-200-1, SPEED-200-1
+    Abilities:
+        Death_No_Drop: true

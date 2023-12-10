@@ -1,0 +1,8 @@
+Fish:
+    Item_Information:
+        Item_Name: "&ePoisson pas né"
+        Item_Type: 349
+        Item_Lore: "&7Il est pas né de la dernière pluie."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Skip_Name_Check: true
+        

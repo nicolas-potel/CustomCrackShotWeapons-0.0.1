@@ -1,0 +1,5 @@
+IceScepter: 
+    Held:
+        Held_Particle: 
+            Particle: SNOWFLAKE
+            Shape: multi_circle

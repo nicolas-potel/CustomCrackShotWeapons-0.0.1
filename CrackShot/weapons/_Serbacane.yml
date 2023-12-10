@@ -1,0 +1,33 @@
+Serbacane:
+    Item_Information:
+        Item_Name: "&2Serbacane"
+        Item_Type: BAMBOO
+        Item_Lore: "&7Chaque flèche est enduite d'un petit cocktail maison."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Remove_Bullet_Drop : true
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 25
+        Projectile_Damage: 2
+        Sounds_Shoot: SPIDER_IDLE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 100
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-100-2, POISON-100-7
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+        Take_Ammo_Per_Shot: true
+    Extras:
+        Not_Hit_Delay: true
+
+
+
+

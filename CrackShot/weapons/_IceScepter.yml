@@ -1,0 +1,29 @@
+IceScepter:
+    Item_Information:
+        Item_Name: "&bSceptre du Snowman"
+        Item_Type: 2259
+        Item_Lore: "&7Rareté: &4&lMYTHIQUE"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Projectile_Speed: 40
+        Projectile_Damage: 4
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Sounds_Shoot: PORTAL-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 75
+        Reload_Duration: 100
+        Sounds_Reloading: PORTAL_TRAVEL-1-1-0
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: SLOW-600-5, WEAKNESS-600-1
+        Potion_Effect_Shooter: SPEED-200-1
+    Particles:
+      Enable: true
+      Particle_Impact_Anything: smoke
+    Abilities:
+        Death_No_Drop: true

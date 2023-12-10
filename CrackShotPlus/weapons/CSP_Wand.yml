@@ -1,0 +1,9 @@
+Wand: 
+    Shoot:
+        Trails:
+            Default_Trail: Wand
+    Held:
+        Weapon_Weight: 0.01
+        Held_Particle: 
+            Particle: TOTEM
+            Shape: multi_position_circles

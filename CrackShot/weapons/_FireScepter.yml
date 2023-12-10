@@ -1,0 +1,29 @@
+FireScepter:
+    Item_Information:
+        Item_Name: "&cSceptre du Blaze"
+        Item_Type: 2258
+        Item_Lore: "&7Rareté: &4&lMYTHIQUE"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Damage: 5
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 15-2-NONE-0
+        Projectile_Incendiary:
+          Enable: true
+          Duration: 60
+        Sounds_Shoot: FIZZ-2-1-0
+    Reload:
+        Enable: true
+        Reload_Amount: 75
+        Reload_Duration: 200
+        Sounds_Reloading: PORTAL_TRAVEL-1-1-0
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: FIRE_RESISTANCE-6000-1, INCREASE_DAMAGE-6000-1
+    Abilities:
+        Death_No_Drop: true

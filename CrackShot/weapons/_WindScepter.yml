@@ -1,0 +1,44 @@
+WindScepter:
+    Item_Information:
+        Item_Name: "&fSceptre du Phantom"
+        Item_Type: 2257
+        Item_Lore: "&7Rareté: &4&lMYTHIQUE"
+        Attachments:
+            Type: main
+            Info: "AttachmentWindScepter"
+        Sounds_Acquired: ENDERDRAGON_WINGS-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Projectile_Damage: 2
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 23-1-NONE-0
+        Sounds_Shoot: FIZZ-2-1-0
+    Abilities:
+        Death_No_Drop: true
+        Reset_Hit_Cooldown: true
+        Knockback: -3
+        No_Fall_Damage: true
+    
+
+AttachmentWindScepter:
+    Item_Information:
+        Attachments:
+            Type: accessory
+        Hidden_From_List: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Type: energy
+        Projectile_Subtype: 0-0-NONE-0
+        Recoil_Amount: -20
+        Projectile_Amount: 1
+        Sounds_Shoot: ENDERDRAGON_WINGS-1-1-0
+    Abilities:
+        Death_No_Drop: true
+        No_Fall_Damage: true

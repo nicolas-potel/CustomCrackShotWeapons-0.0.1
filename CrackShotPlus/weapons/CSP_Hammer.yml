@@ -1,0 +1,5 @@
+Hammer:
+  Held:
+        Held_Particle: 
+            Particle: LAVA
+            Shape: multi_position_circles

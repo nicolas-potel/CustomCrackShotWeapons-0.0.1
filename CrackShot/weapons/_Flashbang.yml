@@ -1,0 +1,29 @@
+Flashbang:
+  Item_Information:
+    Item_Name: "&3Flashbang"
+    Item_Type: 351~5
+    Item_Lore: "&7Une grenade pour s'en mettre plein les yeux."
+    Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Remove_Unused_Tag: true
+  Shooting:
+    Right_Click_To_Shoot: true
+    Cancel_Right_Click_Interactions: true
+    Cancel_Left_Click_Block_Damage: true
+    Delay_Between_Shots: 10
+    Projectile_Amount: 1
+    Projectile_Type: grenade
+    Projectile_Subtype: 351~5
+    Projectile_Speed: 10
+    Sounds_Shoot: ENTITY_SKELETON_SHOOT-2-0-0
+  Explosions:
+    Enable: true
+    Explosion_No_Grief: true
+    Explosion_No_Damage: true
+    Explosion_Potion_Effect: BLINDNESS-120-1,SLOW-120-1
+    Explosion_Radius: 8
+    Explosion_Delay: 20
+    Sounds_Victim: ENTITY_PLAYER_LEVELUP-1-0-0
+    Sounds_Explode: BLOCK_ANVIL_LAND-2-1-0
+  Extras:
+    Disable_Underwater: true
+    One_Time_Use: true
